@@ -1,0 +1,33 @@
+- Tailwind
+
+{ 'pine_green': { DEFAULT: '#01735C', 100: '#001713', 200: '#002e25', 300: '#014638', 400: '#015d4b', 500: '#01735c', 600: '#02c29b', 700: '#16fdce', 800: '#63fddf', 900: '#b1feef' }, 'rusty_red': { DEFAULT: '#dd2d4a', 100: '#2e070e', 200: '#5b0f1c', 300: '#891629', 400: '#b61e37', 500: '#dd2d4a', 600: '#e4576e', 700: '#ea8192', 800: '#f1abb7', 900: '#f8d5db' }, 'cream': { DEFAULT: '#f2f6d0', 100: '#464c0f', 200: '#8c991d', 300: '#c9d937', 400: '#dee784', 500: '#f2f6d0', 600: '#f5f8d9', 700: '#f7fae3', 800: '#fafbec', 900: '#fcfdf6' }, 'ut_orange': { DEFAULT: '#ff8600', 100: '#331b00', 200: '#663600', 300: '#995200', 400: '#cc6d00', 500: '#ff8600', 600: '#ffa033', 700: '#ffb866', 800: '#ffcf99', 900: '#ffe7cc' }, 'amethyst': { DEFAULT: '#7d70ba', 100: '#171328', 200: '#2e2650', 300: '#453a78', 400: '#5c4da0', 500: '#7d70ba', 600: '#968bc7', 700: '#b0a8d5', 800: '#cbc5e3', 900: '#e5e2f1' } }
+
+- CSV
+
+01735C,dd2d4a,f2f6d0,ff8600,7d70ba
+
+- With #
+
+#01735C, #dd2d4a, #f2f6d0, #ff8600, #7d70ba
+
+- Array
+
+["01735C","dd2d4a","f2f6d0","ff8600","7d70ba"]
+
+- Object
+
+{"Pine green":"01735C","Rusty red":"dd2d4a","Cream":"f2f6d0","UT orange":"ff8600","Amethyst":"7d70ba"}
+
+- Extended Array
+
+[{"name":"Pine green","hex":"01735C","rgb":[1,115,92],"cmyk":[99,0,20,55],"hsb":[168,99,45],"hsl":[168,98,23],"lab":[43,-34,5]},{"name":"Rusty red","hex":"dd2d4a","rgb":[221,45,74],"cmyk":[0,80,67,13],"hsb":[350,80,87],"hsl":[350,72,52],"lab":[49,67,28]},{"name":"Cream","hex":"f2f6d0","rgb":[242,246,208],"cmyk":[2,0,15,4],"hsb":[66,15,96],"hsl":[66,68,89],"lab":[96,-8,18]},{"name":"UT orange","hex":"ff8600","rgb":[255,134,0],"cmyk":[0,47,100,0],"hsb":[32,100,100],"hsl":[32,100,50],"lab":[68,40,75]},{"name":"Amethyst","hex":"7d70ba","rgb":[125,112,186],"cmyk":[33,40,0,27],"hsb":[251,40,73],"hsl":[251,35,58],"lab":[51,22,-37]}]
+
+- XML
+
+<palette>
+  <color name="Pine green" hex="01735C" r="1" g="115" b="92" />
+  <color name="Rusty red" hex="dd2d4a" r="221" g="45" b="74" />
+  <color name="Cream" hex="f2f6d0" r="242" g="246" b="208" />
+  <color name="UT orange" hex="ff8600" r="255" g="134" b="0" />
+  <color name="Amethyst" hex="7d70ba" r="125" g="112" b="186" />
+</palette>
