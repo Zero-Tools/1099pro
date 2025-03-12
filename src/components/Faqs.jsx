@@ -5,54 +5,56 @@ const faqs = [
     {
       question: 'What is 1099 Pro?',
       answer:
-        '1099 Pro is an all-in-one app designed to help healthcare contractors manage their business. It simplifies finances, taxes, invoicing, facility management, and scheduling all in one place.',
+        'Coming soon...',
     },
-    {
-      question: 'Can 1099 Pro help with my taxes?',
-      answer:
-        'Yes! 1099 Pro helps track tax deductions, organize income, and generate reports to make tax season easier. We also provide estimated tax calculations so you’re never caught off guard.',
-    },
-    {
-      question: 'Does 1099 Pro handle invoicing?',
-      answer:
-        'Absolutely! You can create, send, and track invoices directly within the app, ensuring you get paid on time and with minimal hassle.',
-    },
-  ],
-  [
-    {
-      question: 'Can I use 1099 Pro to schedule my shifts?',
-      answer:
-        'Yes! Our scheduling tool allows you to organize your shifts, set reminders, and even sync with facility schedules to keep everything streamlined.',
-    },
-    {
-      question: 'Does 1099 Pro integrate with payment platforms?',
-      answer:
-        'Yes, we support multiple payment options, including direct deposit, PayPal, and other secure payment gateways to make receiving payments quick and easy.',
-    },
-    {
-      question: 'Is my financial data secure?',
-      answer:
-        'Security is our top priority. 1099 Pro uses bank-grade encryption to protect your financial data, ensuring your information remains safe and private.',
-    },
-  ],
-  [
-    {
-      question: 'Can 1099 Pro help me find new contract opportunities?',
-      answer:
-        'While we don’t directly connect you with contracts, we provide networking tools, job tracking features, and resources to help you find and secure more work.',
-    },
-    {
-      question: 'Is 1099 Pro only for healthcare professionals?',
-      answer:
-        'While it’s built with healthcare contractors in mind, any independent contractor can use 1099 Pro to manage their business effectively.',
-    },
-    {
-      question: 'How much does 1099 Pro cost?',
-      answer:
-        'We offer multiple pricing plans, including a free version with basic features and premium plans for advanced tools. Check our pricing page for the latest details.',
-    },
-  ],
+  ]
 ];
+//     {
+//       question: 'Can 1099 Pro help with my taxes?',
+//       answer:
+//         'Yes! 1099 Pro helps track tax deductions, organize income, and generate reports to make tax season easier. We also provide estimated tax calculations so you’re never caught off guard.',
+//     },
+//     {
+//       question: 'Does 1099 Pro handle invoicing?',
+//       answer:
+//         'Absolutely! You can create, send, and track invoices directly within the app, ensuring you get paid on time and with minimal hassle.',
+//     },
+//   ],
+//   [
+//     {
+//       question: 'Can I use 1099 Pro to schedule my shifts?',
+//       answer:
+//         'Yes! Our scheduling tool allows you to organize your shifts, set reminders, and even sync with facility schedules to keep everything streamlined.',
+//     },
+//     {
+//       question: 'Does 1099 Pro integrate with payment platforms?',
+//       answer:
+//         'Yes, we support multiple payment options, including direct deposit, PayPal, and other secure payment gateways to make receiving payments quick and easy.',
+//     },
+//     {
+//       question: 'Is my financial data secure?',
+//       answer:
+//         'Security is our top priority. 1099 Pro uses bank-grade encryption to protect your financial data, ensuring your information remains safe and private.',
+//     },
+//   ],
+//   [
+//     {
+//       question: 'Can 1099 Pro help me find new contract opportunities?',
+//       answer:
+//         'While we don’t directly connect you with contracts, we provide networking tools, job tracking features, and resources to help you find and secure more work.',
+//     },
+//     {
+//       question: 'Is 1099 Pro only for healthcare professionals?',
+//       answer:
+//         'While it’s built with healthcare contractors in mind, any independent contractor can use 1099 Pro to manage their business effectively.',
+//     },
+//     {
+//       question: 'How much does 1099 Pro cost?',
+//       answer:
+//         'We offer multiple pricing plans, including a free version with basic features and premium plans for advanced tools. Check our pricing page for the latest details.',
+//     },
+//   ],
+// ];
 
 
 export function Faqs() {
@@ -73,7 +75,7 @@ export function Faqs() {
           <p className="mt-2 text-lg text-gray-600">
             If you have anything else you want to ask,{' '}
             <a
-              href="mailto:info@example.com"
+              href="mailto:info@go1099pro.com"
               className="text-gray-900 underline"
             >
               reach out to us
